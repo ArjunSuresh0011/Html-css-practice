@@ -39,13 +39,13 @@ p.third{
 }
 
 .a1:hover{
-    color: green;
+    background-color: beige;
 }
 .a1:active{
     color: red;
 }
 .a1:visited{
-    color: lightblue;
+    color: blue;
 }
 .li-head{
      color: rebeccapurple;
@@ -95,5 +95,21 @@ td{
 .div1{
     margin-top: 20px;
     position: relative;
-    border:1px solid green;
+    left: 30px;
+    border: 3px solid #73AD21;
+    width: 75%;
+}
+.wraper{
+    margin-left: 100px;
+    padding:30px;
+    color:red;
+    display: flex;
+}
+div.three{
+    color:blue;
+    cursor: pointer;
+}
+.wraper > div{
+    flex:1;
+    padding: 30px;
 }
